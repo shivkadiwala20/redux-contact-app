@@ -6,7 +6,7 @@ import { createStore } from 'redux';
 
 import App from './App';
 import AuthProvider from './components/AuthProvider';
-import { contactReducer } from './reducers/Reducer';
+import { contactReducer } from './reducers/reducer';
 
 const store = createStore(
   contactReducer,

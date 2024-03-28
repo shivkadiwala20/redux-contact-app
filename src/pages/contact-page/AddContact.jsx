@@ -87,7 +87,7 @@ export function AddContact() {
         navigate('/contacts');
       }, 1000);
     } else {
-      contactData.avatar = ' ';
+      contactData.avatar = '';
       contactData.userId = getUserId();
       dispatch(addContact(contactData));
       setOpen(true);

@@ -27,7 +27,11 @@ const appRouting = createBrowserRouter([
       },
       {
         path: 'sign-up',
-        element: <SingUp />,
+        element: (
+          <NonAuthRoutes>
+            <SingUp />
+          </NonAuthRoutes>
+        ),
       },
       {
         path: 'contacts',
