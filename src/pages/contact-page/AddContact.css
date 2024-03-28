@@ -1,0 +1,20 @@
+.image-display-before {
+  height: 86px;
+  width: 86px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.image-display-after {
+  height: 86px;
+  width: 86px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.error-message {
+  margin-bottom: 50px !important;
+  /* background-color: rebeccapurple; */
+}
+.email {
+  margin-top: 12px !important;
+  margin-bottom: 6px !important;
+}
